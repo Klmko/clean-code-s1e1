@@ -43,7 +43,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.new_task__row_wrapper {
   display: flex;
 }
 
@@ -61,15 +61,15 @@
 .task,
 .checkbox,
 .input_task,
-.add,
-.delete,
-.edit {
+.add__button,
+.delete__button,
+.edit__button {
   outline: none;
 }
 
-.add,
-.delete,
-.edit {
+.add__button,
+.delete__button,
+.edit__button {
   background: none;
   border: 0px;
   color: #888;
@@ -79,15 +79,15 @@
   cursor: pointer;
 }
 
-.add:hover,
-.delete:hover,
-.edit:hover {
+.add__button:hover,
+.delete__button:hover,
+.edit__button:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
 .h3,
-.label_new-task {
+.label__new_task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -117,12 +117,12 @@
 }
 
 /* New Task */
-.label_new-task {
+.label__new_task {
   display: block;
   margin: 0 0 20px;
 }
 
-#new-task {
+#new_task {
   width: 318px;
 }
 
